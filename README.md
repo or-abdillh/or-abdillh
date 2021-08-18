@@ -28,9 +28,9 @@
 </p>
 
 <p align= "center">
-  <img height= "150" width="100%" src="https://github-readme-stats.vercel.app/api?username=or-abdillh&theme=react&show_icons=true&include_all_commits=true" />
+  <img height= "150" src="https://github-readme-stats.vercel.app/api?username=or-abdillh&theme=react&show_icons=true&include_all_commits=true" />
   <p></p>
-  <img height= "150" width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=or-abdillh&theme=react&layout=compact" />
+  <img height= "150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=or-abdillh&theme=react&layout=compact" />
 </p>
 
 _____
