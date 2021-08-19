@@ -24,6 +24,7 @@
 <p align="center">
 	<img width="50" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Termux_2.png" />
 	<img width="50" src="https://dl.dropbox.com/s/jk2a8xelgdgxkxo/images%20%2814%29.jpeg?dl=2" />
+        <img width="50" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" />
 	<img width="50" src="https://dl.dropbox.com/s/hhjhbwbmnmum969/64EDXvwIIxCLeQ2yl7jUApMA-M6VmrHS-TUc1vvql0nS7NYlA8PQUNP1ltEfJpXXqPH9.png?dl=2" />
 </p>
 
@@ -37,4 +38,4 @@ _____
 
 [Oka R Abdillah](http://github.com/or-abdillh)
 
-Last Edited on : 18/8/2021
+Last Edited on : 19/8/2021
