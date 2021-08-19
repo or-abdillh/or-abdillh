@@ -29,7 +29,7 @@
 
 <p align= "center">
   <img height= "150" src="https://github-readme-stats.vercel.app/api?username=or-abdillh&theme=react&show_icons=true&include_all_commits=true" />
-  <p></p>
+
   <img height= "150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=or-abdillh&theme=react&layout=compact" />
 </p>
 
