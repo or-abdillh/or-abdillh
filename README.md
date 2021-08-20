@@ -6,7 +6,7 @@
 <br>
 
 - 🎓 I'm currently studying at **Hasnur Polytechnic**
-- 📔 I'm currently learning **Vue JS, Node JS Bootstrap, SASS**
+- 📔 I'm currently learning **Vue JS, Node JS, SASS, Bootstrap**
 - 📣 I'm looking to looking for **Slicing design job**
 - 📧 How to reach me **hans.abdillh05@gmail.com**
 
