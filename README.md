@@ -7,7 +7,7 @@
 
 - 🎓 I'm currently studying at **Hasnur Polytechnic**
 - 📔 I'm currently learning **Vue JS, Node JS Bootstrap, SASS**
-- 📣 I'm looking to collaborate at **Web App project**
+- 📣 I'm looking to looking for **Slicing design job**
 - 📧 How to reach me **hans.abdillh05@gmail.com**
 
 <h3 align="center">Connect with me:</h3>
@@ -38,4 +38,4 @@ _____
 
 [Oka R Abdillah](http://github.com/or-abdillh)
 
-Last Edited on : 19/8/2021
+Last Edited on : 20/8/2021
