@@ -1,13 +1,12 @@
 <h1 align="center">Hi 👏, I'am Abdillah</h1>
 <h3 align="center">
-	I'm a front end developer and also beginner UI designer from Indonesia 🇮🇩
+	I'm a Fullstack Javascript Web Developer from Indonesia 🇮🇩
 </h3>
 
 <br>
 
 - 🎓 I'm currently studying at **Hasnur Polytechnic**
-- 📔 I'm currently learning **Vue JS, Node JS, SASS, Bootstrap**
-- 📣 I'm looking for **Slicing design job**
+- 📔 Skills I currently have **Vue JS, Node JS, Express Js, Tailwindcss, SASS, and MySql**
 - 📧 How to reach me **hans.abdillh05@gmail.com**
 
 <h3 align="center">Connect with me:</h3>
@@ -38,4 +37,4 @@ _____
 
 [Oka R Abdillah](http://github.com/or-abdillh)
 
-Last Edited on : 20/8/2021
+Last Edited on : 21/11/2021
