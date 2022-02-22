@@ -1,11 +1,18 @@
 <template>
+	<Navbar />
 	<main class="app">
 		<router-view></router-view>
 	</main>
 </template>
 
+<script setup>
+
+	import Navbar from '@/components/Navbar.vue'
+
+</script>
+
 <style scoped>
 	.app {
-		@apply p-5 w-full md:w-6/12 lg:w-5/12 md:mx-auto xl:w-4/12
+		@apply w-full md:mx-auto
 	}
 </style>
