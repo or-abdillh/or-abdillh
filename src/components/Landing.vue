@@ -1,22 +1,30 @@
 <template>
-	<section class="w-full md:flex items-center px-10 pt-6 md:pt-12 pb-6 bg-indigo-50 bg-opacity-75">
-		<div class="md:w-6/12">
+	<section class="w-full flex justify-between flex-wrap items-center pt-16 md:pt-24 px-8 md:px-24 py-6 lg:min-h-screen bg-gradient-to-l from-indigo-100 to-gray-100">
+		<div class="md:w-5/12 mb-16 md:mb-0">
+			<h1 class="text-4xl font-medium mb-5">Hello,<br/> i'm <span class="text-indigo-700">Oka R. Abdillah</span> &#128075</h1>
+			<p class="text-base mb-2"><strong>Javascript Fullstack Web Developer</strong> and also instagram content creator about programming</p>
+			<p class="text-base mb-5">I'm currently studying at Hasnur Polytechnic, skills i currently have <strong>Vue JS, Node JS, Express Js, Tailwindcss, SASS,</strong> and <strong>MySQL</strong></p>
+			<a href="" class="inline-block bg-gradient-to-r from-indigo-600 to-indigo-700 text-gray-100 font-medium text-base px-5 py-3 rounded-lg">
+				<i class="fa fa-download"></i>
+				Download CV
+			</a>		
+		</div>
+		<div class=" md:w-5/12 mt-12 mb-6 bg-gradient-to-r from-indigo-200 to-sky-300 shadow rounded-full md:mb-0">
 			<img src="/hero.png" />
 		</div>
-		
-		<div>
-			<h1 class="text-3xl font-medium mb-2">Hello, i'm <span class="text-indigo-600">Abdillah</span> &#128075</h1>
-			<p class="text-sm">Javascript Fullstack Web Developer and also instagram content creator about programming</p>
-			<div class="mt-8 w-full flex items-center gap-4">
-				<a href="" class="bg-indigo-500 text-gray-100 font-medium text-base px-5 py-2 rounded-lg">
-					<i class="fa fa-download"></i>
-					Download CV
-				</a>
-				<div>
-					<a href="" target="_blank"><i class="text-3xl fab fa-instagram text-pink-600 mr-2"></i></a>
-					<a href="" target="_blank"><i class="text-3xl fab fa-github"></i></a>
-				</div>
-			</div>		
+		<div class="w-full grid place-items-center py-5 md:py-10">
+			<div class="text-3xl flex gap-5">
+				<a href="" taget="_blank"><i class="fab fa-instagram text-pink-800"></i></a>
+				<a href="" taget="_blank"><i class="fab fa-github text-gray-800"></i></a>
+				<a href="" taget="_blank"><i class="fab fa-facebook text-indigo-600"></i></a>
+			</div>
 		</div>
 	</section>
 </template>
+
+<script setup>
+
+	import stats from '@/stats.js'
+	
+
+</script>
