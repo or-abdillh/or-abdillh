@@ -1,6 +1,6 @@
 <template>
-	<section class="mb-8 relative w-full md:w-64 lg:w-80">
-		<div class="text-2xl absolute top-2 left-4">
+	<section class="show mb-8 md:mb-2 relative w-full md:w-64 lg:w-80">
+		<div class="text-xl absolute top-1 left-2">
 			<a :href="props.content.links.github" class="mr-2 text-slate-800">
 				<i class="fab fa-github"></i>
 			</a>
@@ -9,7 +9,7 @@
 			</a>
 		</div>
 		
-		<img class="w-full rounded-lg" :src="props.content.thumb" />
+		<img class="w-full rounded-lg" loading="lazy" :src="props.content.thumb" />
 
 		<div class="py-2 items-center gap-1 flex justify-between">
 			<div class="w-6/12">
@@ -37,3 +37,21 @@
 	})
 
 </script>
+
+<style scoped>
+
+	@keyframes show {
+		from {
+			opacity: .75;
+			transform: translate(40, 40) scale(.75)
+		} to {
+			opacity: 1;
+			transform: translate(0) scale(1)
+		}
+	}
+
+	.show {
+		animation: show .3s forward;
+	}
+
+</style>
