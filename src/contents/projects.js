@@ -14,10 +14,10 @@ export default [
 		thumb: 'https://dl.dropbox.com/s/mhb5dnovllq7h46/20211214_231432_0000.png?dl=2',
 		title: 'Evoting Client',
 		tags: [
-			'vuejs', 'tailwind', 'rest-api'
+			'vuejs', 'tailwind', 'rest-api', 'MEVN'
 		],
 		links: {
-			github: 'https://github.com/or-abdillh/evote-client.git',
+			github: 'https://github.com/or-abdillh/electronic-vote-system',
 			instagram: 'https://www.instagram.com/p/CaP4p5Wvc-x/?utm_medium=copy_link'
 		}
 	},
@@ -25,10 +25,10 @@ export default [
 		thumb: 'https://dl.dropbox.com/s/ty9rcumc6l604ix/20211224_204249_0000.png?dl=2',
 		title: 'Evoting Admin',
 		tags: [
-			'vuejs', 'tailwind', 'rest-api', 'template', 'admin'
+			'vuejs', 'tailwind', 'rest-api', 'template', 'admin', 'MEVN'
 		],
 		links: {
-			github: 'https://github.com/or-abdillh/evote-admin.git',
+			github: 'https://github.com/or-abdillh/electronic-vote-system',
 			instagram: 'https://www.instagram.com/p/CaP4p5Wvc-x/?utm_medium=copy_link'
 		}
 	},
@@ -110,14 +110,91 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/oa74rggrinbb6w3/20220122_114836_0000.png?dl=2',
+		thumb: 'https://dl.dropbox.com/s/qmm2i2qy5un24vf/banner-chat.png?dl=2',
 		title: 'Chat App',
 		tags: [
-			'slicing-design', 'vuejs', 'tailwind', 'state-management'
+			'slicing-design', 'vuejs', 'tailwind', 'pinia'
 		],
 		links: {
 			github: 'https://github.com/or-abdillh/chat-app.git',
 			instagram: 'https://www.instagram.com/reel/CZ-0y8NF123/?utm_medium=copy_link'
+		}
+	},
+	{
+		thumb: 'https://dl.dropbox.com/s/14tcp44d1g6cjus/20210404_223747_0000.png?dl=2',
+		title: 'Weather App',
+		tags: [
+			'jquery', 'ajax', 'bootstrap', 'open-api'
+		],
+		links: {
+			github: 'https://github.com/or-abdillh/weather-app.git',
+			instagram: 'https://www.instagram.com/p/CLBD9ClhtHj/?utm_medium=copy_link'
+		}
+	},
+	{
+		thumb: 'https://dl.dropbox.com/s/oa74rggrinbb6w3/20220122_114836_0000.png?dl=2',
+		title: 'Todo App',
+		tags: [
+			'slicing-design', 'vuejs', 'tailwind'
+		],
+		links: {
+			github: 'https://github.com/or-abdillh/Todo.git',
+			instagram: 'https://www.instagram.com/reel/CZBSPKkKyIo/?utm_medium=copy_link'
+		}
+	},
+	{
+		thumb: 'https://dl.dropbox.com/s/q7014cbwte53or2/banner%20%281%29.png?dl=2',
+		title: 'Vegetable App',
+		tags: [
+			'slicing-design', 'vuejs', 'tailwind'
+		],
+		links: {
+			github: 'https://github.com/or-abdillh/vegetable-app.git',
+			instagram: 'https://www.instagram.com/reel/CV-YQu6FyZ7/?utm_medium=copy_link'
+		}
+	},
+	{
+		thumb: 'https://dl.dropbox.com/s/wg43no67rbjm0dj/banner-stock-app.png?dl=2',
+		title: 'Stock App',
+		tags: [
+			'vuejs', 'tailwind', 'rest-api', 'MEVN'
+		],
+		links: {
+			github: 'https://github.com/or-abdillh/stock-the-inventory-management-app',
+			instagram: 'https://www.instagram.com/p/CVIPq2JlX2B/?utm_medium=copy_link'
+		}
+	},
+	{
+		thumb: 'https://dl.dropbox.com/s/kh03ji8xa6pj244/banner%20%282%29.png?dl=2',
+		title: 'POS PHP',
+		tags: [
+			'php', 'bootstrap', 'mysql'
+		],
+		links: {
+			github: 'https://github.com/or-abdillh/pos-php.git',
+			instagram: 'https://www.instagram.com/p/CYkrHiJlVnN/?utm_medium=copy_link'
+		}
+	},
+	{
+		thumb: 'https://dl.dropbox.com/s/t16dq10l5gsmvn7/banner%20%283%29.png?dl=2',
+		title: 'IT Gathering',
+		tags: [
+			'landing-page', 'vuejs', 'tailwind'
+		],
+		links: {
+			github: 'https://github.com/or-abdillh/landing-page.git',
+			instagram: 'https://www.instagram.com/p/CZwzrLTPA1e/?utm_medium=copy_link'
+		}
+	},
+	{
+		thumb: 'https://dl.dropbox.com/s/tvhsrz8gxayoo43/banner.png?dl=2',
+		title: 'Doctalk',
+		tags: [
+			'slicing-design', 'vuejs', 'tailwind'
+		],
+		links: {
+			github: 'https://github.com/or-abdillh/doctalk.git',
+			instagram: 'https://www.instagram.com/reel/CWPfT46FAuB/?utm_medium=copy_link'
 		}
 	}
 ]
