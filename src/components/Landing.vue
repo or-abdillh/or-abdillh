@@ -1,5 +1,5 @@
 <template>
-	<section class="w-full flex justify-between flex-wrap items-center pt-16 md:pt-24 px-8 md:px-24 py-6 lg:min-h-screen bg-gradient-to-l from-indigo-100 to-gray-100">
+	<section id="home" class="w-full flex justify-between flex-wrap items-center pt-16 md:pt-24 px-8 md:px-24 py-6 lg:min-h-screen bg-gradient-to-l from-indigo-100 to-gray-100">
 		<div class="md:w-5/12 mb-16 md:mb-0">
 			<h1 class="text-4xl font-medium mb-5">Hello,<br/> i'm <span class="text-indigo-700">Oka R. Abdillah</span> &#128075</h1>
 			<p class="text-base mb-2"><strong>Javascript Fullstack Web Developer</strong> and also instagram content creator about programming</p>
