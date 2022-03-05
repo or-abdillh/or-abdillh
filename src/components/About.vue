@@ -9,7 +9,7 @@
 		
 		<section class="mt-6 w-full justify-between flex flex-wrap lg:justify-center  gap-6 md:mt-10 gap-6">
 			<div class="md:w-5/12 ">
-				<h2 class="mb-5 font-medium lg:text-center text-indigo-700 text-xl">Educations</h2>
+				<h2 class="mb-5 font-medium md:text-center text-indigo-700 text-xl">Educations</h2>
 				<div>
 					<template v-for="(edu, x) in educations" :key="x">
 						<div class="mb-3 border-l-4 border-indigo-600 rounded py-2 pl-3">
@@ -24,7 +24,7 @@
 			</div>
 
 			<div class="md:w-5/12">
-				<h2 class="mb-5 lg:text-center font-medium text-indigo-700 text-xl">Skills</h2>
+				<h2 class="mb-5 md:text-center font-medium text-indigo-700 text-xl">Skills</h2>
 				<ul>
 					<template v-for="(skil, x) in skils" :key="x">
 						<li class="mb-3 border-l-4 border-indigo-600 rounded py-2 pl-3 font-medium text-gray-700">{{ skil }}</li>
@@ -33,7 +33,7 @@
 			</div>
 			
 			<div class="lg:w-10/12">
-				<h2 class="mb-5 lg:text-center lg:mb-10 font-medium text-indigo-700 text-xl">Languages & Tools</h2>
+				<h2 class="mb-5 md:text-center lg:mb-10 font-medium text-indigo-700 text-xl">Languages & Tools</h2>
 				<ul class="flex flex-wrap justify-between gap-5">
 					<template v-for="(tool, x) in tools" :key="x">
 						<li class="w-2/12 md:w-1/12">
