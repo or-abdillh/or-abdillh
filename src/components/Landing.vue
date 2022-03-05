@@ -1,9 +1,9 @@
 <template>
 	<section id="home" class="w-full flex justify-between flex-wrap items-center pt-16 md:pt-24 px-8 md:px-24 py-6 lg:min-h-screen bg-gradient-to-l from-indigo-100 to-gray-100">
 		<div class="md:w-5/12 mb-16 md:mb-0">
-			<h1 class="text-4xl font-medium mb-5">Hello,<br/> i'm <span class="text-indigo-700">Oka R. Abdillah</span> &#128075</h1>
-			<p class="text-base mb-2"><strong>Javascript Fullstack Web Developer</strong> and also instagram content creator about programming</p>
-			<p class="text-base mb-5">I'm currently studying at Hasnur Polytechnic, skills i currently have <strong>Vue JS, Node JS, Express Js, Tailwindcss, SASS,</strong> and <strong>MySQL</strong></p>
+			<h1 class="text-4xl lg:text-6xl font-medium mb-5">Hello,<br/> i'm <span class="text-indigo-700">Oka R. Abdillah</span> &#128075</h1>
+			<p class="text-base lg:text-lg mb-2"><strong>Javascript Fullstack Web Developer</strong> and also instagram content creator about programming</p>
+			<p class="text-base lg:text-lg mb-5 lg:mb-10">I'm currently studying at Hasnur Polytechnic, skills i currently have <strong>Vue JS, Node JS, Express Js, Tailwindcss, SASS,</strong> and <strong>MySQL</strong></p>
 			<a href="" class="inline-block bg-gradient-to-r from-indigo-600 to-indigo-700 text-gray-100 font-medium text-base px-5 py-3 rounded-lg">
 				<i class="fa fa-download"></i>
 				Download CV
