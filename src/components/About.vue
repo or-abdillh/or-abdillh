@@ -48,7 +48,7 @@
 </template>
 
 <script setup>
-	import educations from '@/educations.js'
-	import skils from '@/skils.js'
-	import tools from '@/tools.js'
+	import educations from '@/contents/educations.js'
+	import skils from '@/contents/skils.js'
+	import tools from '@/contents/tools.js'
 </script>

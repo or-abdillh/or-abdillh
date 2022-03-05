@@ -3,6 +3,7 @@
 	<main class="mt-16">
 		<Landing ref="home" />
 		<About />
+		<Projects />
 	</main>
 </template>
 
@@ -12,6 +13,7 @@
 	import Landing from '@/components/Landing.vue'
 	import About from '@/components/About.vue'
 	import Navbar from '@/components/Navbar.vue'
+	import Projects from '@/components/Projects.vue'
 
 	const home = ref(null) 
 

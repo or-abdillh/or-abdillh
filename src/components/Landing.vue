@@ -21,10 +21,3 @@
 		</div>
 	</section>
 </template>
-
-<script setup>
-
-	import stats from '@/stats.js'
-	
-
-</script>
