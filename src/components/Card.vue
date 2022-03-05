@@ -1,20 +1,19 @@
 <template>
-	<section class="show mb-8 md:mb-2 relative w-full md:w-64 lg:w-80">
-		<div class="text-xl absolute top-1 left-2">
-			<a :href="props.content.links.github" class="mr-2 text-slate-800">
-				<i class="fab fa-github"></i>
-			</a>
-			<a :href="props.content.links.instagram">
-				<i class="fab fa-instagram text-pink-800"></i>
-			</a>
-		</div>
-		
-		<img class="w-full rounded-lg" loading="lazy" :src="props.content.thumb" />
+	<section class="show mb-8 md:mb-2 w-full md:w-64 lg:w-80">
+				
+		<img class="w-full border-2 border-graye-100 rounded-lg shadow mb-2" loading="lazy" :src="props.content.thumb" />
 
 		<div class="py-2 items-center gap-1 flex justify-between">
 			<div class="w-6/12">
 				<div class="flex items-center gap-2 mb-1">
-					<img src="/hero.png" width="25"/>
+					<div class="text-xl">
+						<a :href="props.content.links.github" class="mr-2 text-slate-800">
+							<i class="fab fa-github"></i>
+						</a>
+						<a :href="props.content.links.instagram">
+							<i class="fab fa-instagram text-pink-800"></i>
+						</a>
+					</div>
 					<p class="font-medium text-sm text-gray-900">{{ props.content.title }}</p>
 				</div>
 			</div>

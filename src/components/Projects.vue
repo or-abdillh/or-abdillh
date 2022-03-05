@@ -5,10 +5,10 @@
 			This is a special section that I made to share what works I have made so far, <span class="text-indigo-700">I hope you like it 🙌🏻</span>
 		</p>
 		<section class="text-indigo-700 flex text-xl gap-5 mt-5">
-			<button @click="actionPage(false)" :class="indicatorPage === 0 ? 'bg-indigo-50 px-3' : 'bg-indigo-200 px-5' " class="active:scale-75 duration-300 rounded py-1 grid place-items-center">
+			<button @click="actionPage(false)" :class="indicatorPage === 0 ? 'bg-indigo-50 px-3 text-indigo-300' : 'bg-indigo-200 px-5' " class="active:scale-75 duration-300 rounded py-2 grid place-items-center">
 				<i class="fa fa-chevron-left"></i>
 			</button>
-			<button @click="actionPage(true)" :class="indicatorPage === lengthPage - 1 ? 'bg-indigo-50 px-3' : 'bg-indigo-200 px-5' " class="active:scale-75 duration-300 rounded py-1 grid place-items-center">
+			<button @click="actionPage(true)" :class="indicatorPage === lengthPage - 1 ? 'bg-indigo-50 px-3 text-indigo-300' : 'bg-indigo-200 px-5' " class="active:scale-75 duration-300 rounded py-2 grid place-items-center">
 				<i class="fa fa-chevron-right"></i>
 			</button>
 		</section>
@@ -33,7 +33,7 @@
 	let loop = Math.floor( projects.length / 3 )
 	
 	for (let x = 0; x <= loop; x++) {
-		pages.push( projects.splice(0, 3) )
+		if ( projects.length > 0 ) pages.push( projects.splice(0, 3) )
 	}
 
 	const indicatorPage = ref(0)
