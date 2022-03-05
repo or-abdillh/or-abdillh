@@ -20,15 +20,15 @@
 				</template>
 				<li class="md:hidden w-full bg-green-500 mt-5 text-gray-100 text-center py-2 px-4 rounded-lg">
 					<a href="">
-						<i class="fas fa-envelope"></i>
-						Hire Me
+						<i class="fab fa-whatsapp"></i>
+						Chat Me
 					</a>
 				</li>
 			</ul>
 			<section class="hidden md:block bg-green-500 text-gray-100 text-center p-2 md:px-4 rounded-lg">
 				<a href="">
-					<i class="fas fa-envelope"></i>
-					Hire Me
+					<i class="fab fa-whatsapp"></i>
+					Chat me
 				</a>
 			</section>
 		</section>
@@ -46,11 +46,11 @@
 	}
 
 	.navbar-menu {
-		@apply w-5/12 md:w-6/12 duration-300 fixed md:relative flex justify-between md:items-center top-0 bottom-0 bg-indigo-500 md:bg-opacity-0 px-5 lg:px-0 pt-12  md:pt-0;
+		@apply w-5/12 md:w-8/12 duration-300 fixed md:relative flex justify-between md:items-center top-0 bottom-0 bg-indigo-500 md:bg-opacity-0 px-5 lg:px-0 pt-12  md:pt-0;
 	}
 
 	.navbar-list {
-		@apply flex flex-col md:flex-row gap-3 md:gap-6 lg:gap-10 lg:text-xl;
+		@apply flex flex-col md:flex-row gap-3 md:gap-4 lg:gap-10 lg:text-xl;
 	}
 </style>
 
