@@ -5,7 +5,7 @@
 			contact me if there is a job you want to offer or just ask about me
 		</p>
 		<section class="w-full text-indigo-700 text-xl gap-5 mt-5">
-			<div class="flex w-full gap-3 md:w-7/12 md:mx-auto">
+			<div class="flex w-full gap-3 md:w-7/12 md:mx-auto lg:justify-center">
 				<template v-for="(contact, x) in contacts" :key="x">
 					<a :href="!contact.mailto ? contact.link : 'mailto:' + contact.link"
 					class="w-48 bg-indigo-100 grid place-items-center py-4 rounded active:bg-indigo-300 hover:bg-indigo-300 duration-300">
