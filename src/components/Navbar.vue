@@ -2,7 +2,7 @@
 	<main class="navbar">
 		<section class="navbar-brand">
 			<div class="flex items-center gap-3">
-				<img src="/hero.png" width="50" />
+				<img src="/icons/icon-512x512.png" width="50" />
 				<h1 class="text-indigo-700 text-xl font-semibold lg:text-3xl">OR ABDILLH</h1>
 			</div>
 			<button @click="showMenu = true" class="active:scale-90 duration-300 md:hidden" type="button">
