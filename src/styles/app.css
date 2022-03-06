@@ -6,3 +6,7 @@
 * {
 	font-family: 'Poppins', sans-serif;
 }
+
+*::placeholder {
+	font-size: 1rem;
+}

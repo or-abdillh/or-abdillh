@@ -1,6 +1,6 @@
 <template>
 	<section id="projects" class="py-8 bg-gradient-to-b from-indigo-50 to-gray-50 px-8 md:px-20">
-		<h1 class="mb-12 text-3xl text-center text-indigo-700 font-medium">Projects</h1>
+		<h1 class="mb-8 text-3xl text-center text-indigo-700 font-medium">Projects</h1>
 		<p class="md:text-center md:mx-auto">
 			This is a special section that I made to share what works I have made so far, <span class="text-indigo-700">I hope you like it 🙌🏻</span>
 		</p>
