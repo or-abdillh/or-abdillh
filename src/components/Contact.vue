@@ -1,3 +1,10 @@
+<style scoped>
+
+	.input {
+		@apply text-sm text-gray-700  bg-gray-50 py-4 w-10/12;
+	}
+
+</style>
 <template>
 	<section id="contact" class="py-8 bg-gradient-to-b from-gray-50 to-indigo-50 px-8 md:px-20">
 		<h1 class="mb-8 text-3xl text-center text-indigo-700 font-medium">Contact</h1>
@@ -14,21 +21,38 @@
 				</template>
 			</div>
 			
-			<form class="lg:w-10/12 lg:mx-auto mt-8 md:flex items-start gap-5 justify-between">
+			<form @submit.prevent="submitForm" class="lg:w-10/12 lg:mx-auto mt-8 md:flex items-start gap-5 justify-between">
 				<section class="md:w-6/12">
-					<InputField :model="fullname" label="Fullname" placeholder="your fullname" />
-					<InputField :model="company" label="Company" placeholder="your company name" icon="fas fa-building" />
-					<InputField :model="phone" type="number" label="Phone number" placeholder="your phone number" :isRequired="false" icon="fab fa-whatsapp" />
-					<InputField :model="email" type="email" label="Email" placeholder="your email" :isRequired="false" icon="fa fa-envelope" />
+					<InputField label="Fullname">
+						<template v-slot:input>
+							<input class="input" type="text" v-model="form.fullname" placeholder="your fullname" required/>
+						</template>
+					</InputField>
+					<InputField label="Company" icon="fa fa-building">
+						<template v-slot:input>
+							<input class="input" type="text" v-model="form.company" placeholder="your company name" required />
+						</template>
+					</InputField>
+					<InputField label="Phone" icon="fab fa-whatsapp">
+						<template v-slot:input>
+							<input class="input" type="number" v-model="form.phone" placeholder="your phone number" required />
+						</template>
+					</InputField>
+					<InputField label="Email" icon="fa fa-envelope">
+						<template v-slot:input>
+							<input class="input" type="email" v-model="form.email" placeholder="your email address" required />
+						</template>
+					</InputField>
 				</section>
 				
 				<section class="w-full md:w-5/12 flex flex-wrap">
 					<label class="text-base">Message</label>
-					<textarea rows="13" v-model="message" class="w-full text-base text-gray-600 mt-2 p-2 border-2 border-indigo-300 rounded-xl overflow-hidden bg-gray-50" placeholder="Your message"></textarea>
+					<textarea rows="13" v-model="form.message" class="w-full text-base text-gray-600 mt-2 p-2 border-2 border-indigo-300 rounded-xl overflow-hidden bg-gray-50" placeholder="Your message"></textarea>
 					<div class="w-full mt-5 flex justify-between">
-						<button class="bg-blue-500 text-gray-100 w-5/12 py-2 rounded-lg text-base" type="submit">
-							<i class="fa fa-paper-plane"></i>
-							Send
+						<button :class="isLoading ? 'bg-blue-200' : 'bg-blue-500'" class="text-gray-100 w-5/12 py-2 rounded-lg text-base" type="submit">
+							<i class="fa fa-paper-plane mr-1"></i>
+							<span v-if="!isLoading">Send</span>
+							<span v-else>Sending ...</span>
 						</button>
 						<button class="border-red-500 border-2 text-red-600 w-5/12 py-2 rounded-lg text-base" type="reset">
 							<i class="fa fa-times"></i>
@@ -43,14 +67,39 @@
 
 <script setup>
 
+	import axios from 'axios'
 	import contacts from '@/contents/contacts.js'
 	import InputField from '@/components/InputField.vue'
-	import { ref } from 'vue'
+	import { reactive, ref } from 'vue'
 
-	const fullname = ref('')
-	const company = ref('')
-	const phone = ref('')
-	const email = ref('')
-	const message = ref('')
+	const form = reactive({
+		fullname: '',
+		company: '',
+		phone: '',
+		email: '',
+		message: ''
+	})
+	
+	const isLoading = ref(false)
+	const URL = 'https://script.google.com/macros/s/AKfycbxsfCd6Z5XDPXcC5gLkJL9hhwfiYYcArynlPIIOhFDh_7Yn5_AOYH_VeJ0EKdLtukuH/exec'
+
+	const headers = {
+		'content-type': 'application/json'
+	}
+	
+	const submitForm = () => {
+		isLoading.value = true
+		axios.post(
+			URL, form, { headers }
+		)
+		.then( res => alert(res.data) )
+		.catch(err => {
+			console.log(err)
+			isLoading.value = false
+	  	if (err.response) {
+		 		alert(err.response.data)
+	    }
+	  })
+	}
 
 </script>
