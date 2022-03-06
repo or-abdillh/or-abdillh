@@ -4,7 +4,14 @@
 		<p class="md:text-center md:mx-auto">
 			This is a special section that I made to share what works I have made so far, <span class="text-indigo-700">I hope you like it 🙌🏻</span>
 		</p>
-		<section class="text-indigo-700 flex text-xl gap-5 mt-5">
+		
+		<section class="mt-4 lg:w-10/12 md:flex-nowrap mx-auto md:flex gap-5 flex-wrap justify-between">
+			<template  v-for="(project , x) in currentPage" :key="x">
+				<Card :content="project" />
+			</template>
+		</section>
+		
+		<section class="text-indigo-700 flex text-xl gap-5">
 			<button @click="actionPage(false)" :class="indicatorPage === 0 ? 'bg-indigo-50 px-3 text-indigo-300' : 'bg-indigo-200 px-5' " class="active:scale-75 duration-300 rounded py-2 grid place-items-center">
 				<i class="fa fa-chevron-left"></i>
 			</button>
@@ -15,11 +22,6 @@
 		<div class="mt-2">
 			<small class="text-sm">page {{ indicatorPage + 1  }} of {{ lengthPage }}</small>
 		</div>
-		<section class="mt-4 md:flex gap-5 flex-wrap justify-between">
-			<template  v-for="(project , x) in currentPage" :key="x">
-				<Card :content="project" />
-			</template>
-		</section>
 	</section>
 </template>
 

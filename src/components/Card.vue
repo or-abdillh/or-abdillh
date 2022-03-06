@@ -1,5 +1,5 @@
 <template>
-	<section class="show mb-8 md:mb-2 w-full md:w-64 lg:w-80">
+	<section class="show mb-8 md:mb-2 w-full md:w-64 lg:w-96">
 				
 		<img class="w-full border-2 border-graye-100 rounded-lg shadow mb-2" loading="lazy" :src="props.content.thumb" />
 
