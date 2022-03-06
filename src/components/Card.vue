@@ -1,26 +1,31 @@
 <template>
 	<section class="show mb-8 md:mb-2 w-full md:w-64 lg:w-96">
 				
-		<img class="w-full border-2 border-graye-100 rounded-lg shadow mb-2" loading="lazy" :src="props.content.thumb" />
+		<div class="w-full relative">
+			<img class="w-full border-2 border-gray-100 rounded-lg shadow mb-2" :src="props.content.thumb" />
+			<div class="absolute rounded bg-blue-300 bg-opacity-0 opacity-0 hover:bg-opacity-75 hover:opacity-100 duration-300 inset-0 grid place-items-center">
+				<span class="text-xl flex flex-wrap justify-center">
+					<small class="text-sm w-full text-center mb-1">See project on</small>
+					<a :href="props.content.links.github" class="mr-2 text-slate-900">
+						<i class="fab fa-github"></i>
+					</a>
+					<a :href="props.content.links.instagram">
+						<i class="fab fa-instagram text-pink-900"></i>
+					</a>
+				</span>
+			</div>
+		</div>
 
-		<div class="py-2 items-center gap-1 flex justify-between">
-			<div class="w-6/12">
-				<div class="flex items-center gap-2 mb-1">
-					<div class="text-xl">
-						<a :href="props.content.links.github" class="mr-2 text-slate-800">
-							<i class="fab fa-github"></i>
-						</a>
-						<a :href="props.content.links.instagram">
-							<i class="fab fa-instagram text-pink-800"></i>
-						</a>
-					</div>
+		<div class="py-2 items-center gap-1 flex justify-between md:flex-wrap">
+			<div class="w-6/12 md:w-full">
+				<div class="flex items-center gap-1 mb-1">
 					<p class="font-medium text-sm text-gray-900">{{ props.content.title }}</p>
 				</div>
 			</div>
-			<div class="w-6/12 text-right">
+			<div class="w-6/12 md:w-full text-right md:text-left">
 				<i class="fas fa-tag text-indigo-600 mr-1 text-xs"></i>
 				<small v-for="tag in props.content.tags" :key="tag">
-					<a :href="'https://www.google.com/search?q=' + tag" class="inline-block mr-1 text-indigo-700">{{ tag }}</a>
+					<a :href="'https://www.google.com/search?q=' + tag" class="inline-block mr-1 text-indigo-700 text-xs">{{ tag }}</a>
 				</small>
 			</div>
 		</div>

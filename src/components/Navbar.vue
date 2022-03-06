@@ -19,7 +19,7 @@
 					</li>
 				</template>
 				<li class="md:hidden w-full bg-green-500 mt-5 text-gray-100 text-center py-2 px-4 rounded-lg">
-					<a href="">
+					<a href="https://wa.me/6285654036810">
 						<i class="fab fa-whatsapp"></i>
 						Chat Me
 					</a>

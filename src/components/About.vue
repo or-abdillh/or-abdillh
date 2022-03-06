@@ -1,6 +1,6 @@
 <template>
 	<section id="about" class="py-8 bg-gradient-to-b from-gray-50 to-indigo-50 px-8 md:px-20">
-		<h1 class="mb-8 text-3xl text-center text-indigo-700 font-medium">About Me</h1>
+		<h1 class="mb-8 text-3xl text-center text-indigo-700 font-bold">About Me</h1>
 		<p class="md:text-center md:mx-auto">
 			Hello, I'm Oka Rajeb Abdillah, from Barito Kuala, South Kalimantan province, Indonesia. <br>
 			I am a web developer and Instagram content creator. <br>

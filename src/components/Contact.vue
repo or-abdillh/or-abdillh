@@ -7,7 +7,7 @@
 </style>
 <template>
 	<section id="contact" class="py-8 bg-gradient-to-b from-gray-50 to-indigo-50 px-8 md:px-20">
-		<h1 class="mb-8 text-3xl text-center text-indigo-700 font-medium">Contact</h1>
+		<h1 class="mb-8 text-3xl text-center text-indigo-700 font-bold">Contact</h1>
 		<p class="md:text-center md:mx-auto">
 			contact me if there is a job you want to offer or just ask about me
 		</p>
@@ -89,17 +89,18 @@
 	
 	const submitForm = () => {
 		isLoading.value = true
-		axios.post(
-			URL, form, { headers }
-		)
-		.then( res => alert(res.data) )
-		.catch(err => {
-			console.log(err)
+		fetch(URL, {
+			method: 'POST',
+			mode: 'no-cors',
+			headers,
+			body: form
+		})
+		.then( res => res.json() )
+		.then( res => {
+			console.log(res, 'Ok')
 			isLoading.value = false
-	  	if (err.response) {
-		 		alert(err.response.data)
-	    }
-	  })
+		})
+		.catch( err => console.log(err, 'no'))
 	}
 
 </script>
