@@ -1,7 +1,7 @@
 export default [
 	{
 		name: 'Home',
-		to: '#'
+		to: '#home'
 	},
 	{
 		name: 'About',
@@ -9,10 +9,10 @@ export default [
 	},
 	{
 		name: 'Projects',
-		to: '#event'
+		to: '#projects'
 	},
 	{
 		name: 'Contact',
-		to: '#FAQ'
+		to: '#contact'
 	}
 ]

@@ -15,7 +15,7 @@
 				<span @click="showMenu = false" class=" md:hidden"><i class="fa fa-times text-gray-50"></i></span>
 				<template v-for="(menu, x) in menus" :key="x">
 					<li :class="menuActive === menu.name ? 'border-b-4 border-blue-400' : ''" class="text-gray-100 md:text-indigo-600 font-medium duration-300">
-						<a @click="changeMenu(menu.name)">{{ menu.name }}</a>
+						<a @click="changeMenu(menu)">{{ menu.name }}</a>
 					</li>
 				</template>
 				<li class="md:hidden w-full bg-green-500 mt-5 text-gray-100 text-center py-2 px-4 rounded-lg">
@@ -68,8 +68,8 @@
 	if ( viewport.value >= 768 ) showMenu.value = true //If device tablet or more wider shoow menu
 
 	const changeMenu = menu => {
-		menuActive.value = menu
-		emits('changeMenu', menu)
+		menuActive.value = menu.name
+		emits('changeMenu', menu.to)
 	}	
 	
 </script>

@@ -20,20 +20,13 @@
 	const home = ref(null) 
 
 	const changeMenu = payload => {
-		scrollToElement(payload)
+		getEl(payload).scrollIntoView({
+			behavior: 'smooth',
+			block: 'start',
+			inline: 'nearest'
+		})
 	}
 
-	const scrollToElement = target => {
-
-		switch (target.toLowerCase()) {
-			case 'home': scrollTo(home.value)
-		}
-	}
-
-	const scrollTo = el => {
-		alert(
-			JSON.stringify(el)
-		)
-	}
+	const getEl = id => document.querySelector(id)
 
 </script>
