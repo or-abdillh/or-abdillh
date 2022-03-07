@@ -66,7 +66,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https:/dl.dropbox.com/s/psf0m3kgb4nrfqn/20220112_234252_0000.png?dl=2',
+		thumb: 'https://dl.dropbox.com/s/psf0m3kgb4nrfqn/20220112_234252_0000.png?dl=2',
 		title: 'Marketplace',
 		tags: [
 			'slicing-design', 'vuejs', 'tailwind'
