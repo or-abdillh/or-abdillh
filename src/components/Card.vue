@@ -1,5 +1,5 @@
 <template>
-	<section class="show mb-8 md:mb-2 w-full md:w-64 lg:w-96">
+	<section class="show mb-8 md:mb-2 w-full md:w-64 lg:w-96 max-w-4/12">
 				
 		<div class="w-full relative">
 			<img :alt="props.content.title" class="w-full border-2 border-gray-100 rounded-lg shadow mb-2" :src="props.content.thumb" />
