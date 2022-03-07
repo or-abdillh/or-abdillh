@@ -3,6 +3,7 @@
   "short_name": "Oka R. Abdillah",
   "theme_color": "#E9ECFA",
   "background_color": "#FFFFFF",
+  "start_url": "https://or-abdillh.vercel.app/",
   "display": "standalone",
   "orientation": "portrait",
   "icons": [
