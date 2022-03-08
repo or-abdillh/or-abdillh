@@ -4,9 +4,9 @@
 			<h1 class="text-4xl lg:text-6xl font-medium mb-5">Hello,<br/> i'm <span class="text-indigo-700">Oka R. Abdillah</span> &#128075</h1>
 			<p class="text-base lg:text-lg mb-2"><strong>Javascript Fullstack Web Developer</strong> and also instagram content creator about programming</p>
 			<p class="text-base lg:text-lg mb-5 lg:mb-10">I'm currently studying at Hasnur Polytechnic, skills i currently have <strong>Vue JS, Node JS, Express Js, Tailwindcss, SASS,</strong> and <strong>MySQL</strong></p>
-			<a href="" class="inline-block bg-gradient-to-r from-indigo-600 to-indigo-700 text-gray-100 font-medium text-base px-5 py-3 rounded-lg">
+			<a href="https://drive.google.com/file/d/1c-LQkuAhM1e0OPwiBApyR9w3Hw9ivjo5/view?usp=drivesdk" class="inline-block bg-gradient-to-r from-indigo-600 to-indigo-700 text-gray-100 font-medium text-base px-5 py-3 rounded-lg">
 				<i class="fa fa-download"></i>
-				Download CV
+				CV Oka R. Abdillah
 			</a>		
 		</div>
 		<div class=" md:w-5/12 mt-12 mb-6 bg-gradient-to-r from-indigo-200 to-sky-300 shadow rounded-full md:mb-0">
@@ -14,9 +14,9 @@
 		</div>
 		<div class="w-full grid place-items-center py-5 md:py-10">
 			<div class="text-3xl flex gap-5">
-				<a href="" taget="_blank"><i class="fab fa-instagram text-pink-800"></i></a>
-				<a href="" taget="_blank"><i class="fab fa-github text-gray-800"></i></a>
-				<a href="" taget="_blank"><i class="fab fa-facebook text-indigo-600"></i></a>
+				<a href="https://instagram.com/or.abdillh?utm_medium=copy_link" taget="_blank"><i class="fab fa-instagram text-pink-800"></i></a>
+				<a href="https://github.com/or-abdillh" taget="_blank"><i class="fab fa-github text-gray-800"></i></a>
+				<a href="https://m.facebook.com/abdillahcfc" taget="_blank"><i class="fab fa-facebook text-indigo-600"></i></a>
 			</div>
 		</div>
 	</section>

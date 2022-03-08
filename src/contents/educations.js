@@ -1,7 +1,7 @@
 export default [
 	{
 		name: 'D3 Teknik Informatika - Politeknik Hasnur',
-		year: '2021 - Now'
+		year: '2020 - Now'
 	},
 	{
 		name: 'SMA Negeri 1 Alalak IPA',
@@ -9,6 +9,6 @@ export default [
 	},
 	{
 		name: 'SMP Negeri 2 Alalak',
-		year: '2015 - 2016'
+		year: '2014 - 2017'
 	}
 ]
