@@ -1,5 +1,16 @@
 export default [
 	{
+		thumb: 'https://dl.dropbox.com/s/5y1h24qqz42c4ve/20220309_100743_0000.png?dl=2',
+		title: 'or-abdillh page',
+		tags: [
+			'landing-page', 'vuejs', 'tailwind'
+		],
+		links: {
+			github: 'https://github.com/or-abdillh/or-abdillh',
+			instagram: 'https://www.instagram.com/p/Ca3b0EiFI3Z/?utm_medium=copy_link'
+		}
+	},
+	{
 		thumb: 'https://dl.dropbox.com/s/uxpplm5a0hw853b/20210828_133750_0000.png?dl=2',
 		title: 'OMDB App',
 		tags: [
