@@ -1,38 +1,38 @@
-<h1 align="center">Hi 👏, I'am Abdillah</h1>
-<h3 align="center">
-	I'm a Fullstack Javascript Web Developer from Indonesia 🇮🇩
-</h3>
+Hi 👋 My name is Oka R. Abdillah
+================================
 
-<br>
+Javascript Fullstack Web Developer
+----------------------------------
 
-- 🎓 I'm currently studying at **Hasnur Polytechnic**
-- 📔 Skills I currently have **Vue JS, Node JS, Express Js, Tailwindcss, SASS, and MySql**
-- 📧 How to reach me **hans.abdillh05@gmail.com**
-
-<h3 align="center">Connect with me:</h3>
-<div align="center">
-
-[![image](https://img.shields.io/badge/Facebook-0077B5?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/abdillahcfc)
-[![image](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/or_abdillh/)
-[![image](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hans.abdillh05@gmail.com)
- 
-</div>
-
-<h3 align="center">Languages and Tools</h3>
-
-<p align="center">
-	<img width="50" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Termux_2.png" />
-	<img width="50" src="https://dl.dropbox.com/s/jk2a8xelgdgxkxo/images%20%2814%29.jpeg?dl=2" />
-        <img width="50" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" />
-	<img width="50" src="https://dl.dropbox.com/s/hhjhbwbmnmum969/64EDXvwIIxCLeQ2yl7jUApMA-M6VmrHS-TUc1vvql0nS7NYlA8PQUNP1ltEfJpXXqPH9.png?dl=2" />
-</p>
-
-<p align= "center">
-  <img height= "150" src="https://github-readme-stats.vercel.app/api?username=or-abdillh&theme=react&show_icons=true&include_all_commits=true" />
-
-  <img height= "150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=or-abdillh&theme=react&layout=compact" />
-</p>
-
-[Oka R Abdillah](http://github.com/or-abdillh)
-
-Last Edited on : 21/11/2021
+*   🌍  I'm based in Indonesia
+*   🖥️  See my portfolio at [or-abdillh](http://or-abdillh.vercel.app)
+*   ✉️  You can contact me at [hans.abdillh05@gmail.com](mailto:hans.abdillh05@gmail.com)<a href="https://www.github.com/or-abdillh" target="_blank" rel="noreferrer"><img
+                  src="https://img.shields.io/github/followers/or-abdillh?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>### Skills<p align="left">
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="Javascript" /></a>
+                                <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
+                                <a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>
+                                <a href="https://sass-lang.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg" width="36" height="36" alt="Sass" /></a>
+                                <a href="https://vuejs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vue-colored.svg" width="36" height="36" alt="Vue" /></a>
+                                <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" width="36" height="36" alt="TailwindCSS" /></a>
+                                <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="NodeJS" /></a>
+                                <a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" width="36" height="36" alt="Express" /></a>
+                                <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a>
+                                <a href="https://www.heroku.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/heroku-colored.svg" width="36" height="36" alt="Heroku" /></a>
+                                <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
+                    </p>
+                    
+                  ### Socials
+                  
+                  
+                <p align="left">
+                          
+                      <a href="https://www.facebook.com/abdillahcfc" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /></a>
+                          
+                      <a href="https://www.github.com/or-abdillh" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a>
+                          
+                      <a href="http://www.instagram.com/or.abdillh" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a></p>### Badges<b>My GitHub Stats</b><a
+                      href="http://www.github.com/or-abdillh"><img src="https://github-readme-stats.vercel.app/api?username=or-abdillh&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="or-abdillh's GitHub stats" /></a><a
+                      href="http://www.github.com/or-abdillh"><img
+                  src="https://github-readme-streak-stats.herokuapp.com/?user=or-abdillh&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a><a
+                      href="http://www.github.com/or-abdillh"><img src="https://activity-graph.herokuapp.com/graph?username=or-abdillh&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a><a href="https://github.com/or-abdillh" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=or-abdillh&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a><b>Top Repositories</b><div width="100%" align="center"><a href="https://github.com/or-abdillh/vue-tailwind" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=or-abdillh&repo=vue-tailwind&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a><a href="https://github.com/or-abdillh/chat-app" align="right"><img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=or-abdillh&repo=chat-app&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a></div><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><div width="100%" align="center"><a href="https://github.com/or-abdillh/omdb-app" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=or-abdillh&repo=omdb-app&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a><a href="https://github.com/or-abdillh/travel-app-3" align="right"><img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=or-abdillh&repo=travel-app-3&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a></div>### Support Me<a
+                  href="https://www.saweria.com/or-abdillh"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
