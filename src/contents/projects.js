@@ -7,7 +7,7 @@ export default [
 		],
 		links: {
 			github: 'https://github.com/or-abdillh/echo-wallet.git',
-			instagram: 'https://www.instagram.com/p/Ca3b0EiFI3Z/?utm_medium=copy_link'
+			instagram: 'https://www.instagram.com/p/CcrOiIfPJSV/?igshid=YmMyMTA2M2Y='
 		}
 	},
         {
