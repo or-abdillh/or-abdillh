@@ -1,5 +1,16 @@
 export default [
 	{
+		thumb: 'https://dl.dropbox.com/s/o06twxsk6x8o39c/IMG_20220423_093850_189.jpg?dl=2',
+		title: 'Echo Wallet',
+		tags: [
+			'web-design', 'vuejs', 'tailwind'
+		],
+		links: {
+			github: 'https://github.com/or-abdillh/echo-wallet.git',
+			instagram: 'https://www.instagram.com/p/Ca3b0EiFI3Z/?utm_medium=copy_link'
+		}
+	},
+        {
 		thumb: 'https://dl.dropbox.com/s/5y1h24qqz42c4ve/20220309_100743_0000.png?dl=2',
 		title: 'or-abdillh page',
 		tags: [
