@@ -1,3 +1,3 @@
 export default [
-	'/html.png', '/css.png', '/javascript.png', '/sass.png', '/tailwind.png', '/vue.png', '/node.png', '/express.png', '/mysql.png', '/git.png', '/github.png', '/vercel.png', '/heroku.png', '/npm.png', '/termux.png', '/micro.png'
+	'tools/html.png', 'tools/css.png', 'tools/javascript.png', 'tools/sass.png', 'tools/tailwind.png', 'tools/vue.png',  'tools/vite.png', 'tools/node.png', 'tools/express.png', 'tools/mysql.png',  'tools/sequelize.png', 'tools/git.png', 'tools/github.png', 'tools/vercel.png', 'tools/heroku.png', 'tools/npm.png', 'tools/termux.png',  'tools/neovim.png', 'tools/micro.png'
 ]
