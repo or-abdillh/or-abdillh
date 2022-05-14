@@ -13,29 +13,29 @@
 
 <script setup>
 
-	import { ref } from 'vue'
-	import Landing from '@/components/Landing.vue'
-	import About from '@/components/About.vue'
-	import Navbar from '@/components/Navbar.vue'
-	import Projects from '@/components/Projects.vue'
-	import Contact from '@/components/Contact.vue'
-	import Footer from '@/components/Footer.vue'
+import { ref } from 'vue'
+import Landing from '@/components/Landing.vue'
+import About from '@/components/About.vue'
+import Navbar from '@/components/Navbar.vue'
+import Projects from '@/components/Projects.vue'
+import Contact from '@/components/Contact.vue'
+import Footer from '@/components/Footer.vue'
 
-	const home = ref(null) 
+const home = ref(null)
 
-	const changeMenu = payload => {
-		getEl(payload).scrollIntoView({
-			behavior: 'smooth',
-			block: 'start',
-			inline: 'nearest'
-		})
-	}
+const changeMenu = payload => {
+	getEl(payload).scrollIntoView({
+		behavior: 'smooth',
+		block: 'start',
+		inline: 'nearest'
+	})
+}
 
-	const getEl = id => document.querySelector(id)
+const getEl = id => document.querySelector(id)
 </script>
 
 <style scoped>
-	.app {
-		@apply w-full;
-	}
+.app {
+	@apply w-full;
+}
 </style>

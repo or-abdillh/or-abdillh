@@ -1,6 +1,5 @@
 <template>
-	<section class="show mb-8 md:mb-2 w-full md:w-64 lg:w-96 max-w-4/12">
-				
+	<section data-aos="zoom-in" class="show mb-8 md:mb-2 w-full md:w-64 lg:w-96 max-w-4/12">		
 		<div class="w-full relative">
 			<img :alt="props.content.title" class="w-full border-2 border-gray-100 rounded-lg shadow mb-2" :src="props.content.thumb" />
 			<div class="absolute rounded bg-blue-300 bg-opacity-0 opacity-0 hover:bg-opacity-75 hover:opacity-100 duration-300 inset-0 grid place-items-center">

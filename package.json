@@ -8,6 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
     "autoprefixer": "^10.4.2",
     "axios": "^0.26.0",
     "postcss": "^8.4.5",
