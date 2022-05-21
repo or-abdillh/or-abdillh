@@ -4,7 +4,7 @@
 			<h1 class="text-4xl lg:text-6xl font-medium mb-5">Hello,<br/> i'm <span class="text-indigo-700">Oka R. Abdillah</span> &#128075</h1>
 			<p class="text-base lg:text-lg mb-2"><strong>Javascript Fullstack Web Developer</strong> and also instagram content creator about programming</p>
 			<p class="text-base lg:text-lg mb-5 lg:mb-10">I'm currently studying at Hasnur Polytechnic, skills i currently have <strong>Vue JS, Node JS, Express Js, Tailwindcss, SASS,</strong> and <strong>MySQL</strong></p>
-			<a href="https://drive.google.com/file/d/1ygOcnZbcq-hRZy6Sq2AE6G6e6JD37XHM/view?usp=drivesdk" class="inline-block bg-gradient-to-r from-indigo-600 to-indigo-700 text-gray-100 font-medium text-base px-5 py-3 rounded-lg">
+			<a href="https://drive.google.com/file/d/10E-qPtueIrfAxz6G8Rk5G4OfbHH6ozVv/view?usp=drivesdk" class="inline-block bg-gradient-to-r from-indigo-600 to-indigo-700 text-gray-100 font-medium text-base px-5 py-3 rounded-lg">
 				<i class="fa fa-download"></i>
 				CV Oka R. Abdillah
 			</a>		
