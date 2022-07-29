@@ -1,5 +1,16 @@
 export default [
 	{
+		thumb: 'https://drive.google.com/uc?id=1ovmeGhCGZ4DYwd3WeFJhAlODCg0Ji5XD&export=download',
+		title: 'Bekantan Hamox',
+		tags: [
+			'web-design', 'vuejs', 'tailwind'
+		],
+		links: {
+			github: 'https://github.com/or-abdillh/bechantant-project',
+			instagram: 'https://www.instagram.com/p/Cgl2B-9PF-4/?igshid=YmMyMTA2M2Y='
+		}
+	},
+       {
 		thumb: 'https://dl.dropbox.com/s/o06twxsk6x8o39c/IMG_20220423_093850_189.jpg?dl=2',
 		title: 'Echo Wallet',
 		tags: [
