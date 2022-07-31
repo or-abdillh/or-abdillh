@@ -1,12 +1,12 @@
 <template>
-	<main class="navbar">
+	<main class="navbar dark:from-slate-900 dark:to-slate-900">
 		<section class="navbar-brand">
 			<div class="flex items-center gap-3">
 				<img src="/icons/icon-512x512.png" width="50" />
-				<h1 class="text-indigo-700 text-xl font-semibold lg:text-3xl">OR ABDILLH</h1>
+				<h1 class="text-indigo-700 dark:text-indigo-400 text-xl font-semibold lg:text-3xl">OR ABDILLH</h1>
 			</div>
 			<button @click="showMenu = true" class="active:scale-90 duration-300 md:hidden" type="button">
-				<i class="fa fa-bars text-indigo-700 text-2xl"></i>
+				<i class="fa fa-bars text-indigo-700 dark:text-indigo-500 text-2xl"></i>
 			</button>
 		</section>
 		
@@ -14,11 +14,13 @@
 			<ul class="navbar-list">
 				<span @click="showMenu = false" class=" md:hidden"><i class="fa fa-times text-gray-50"></i></span>
 				<template v-for="(menu, x) in menus" :key="x">
-					<li :class="menuActive === menu.name ? 'border-b-4 border-blue-400' : ''" class="text-gray-100 md:text-indigo-600 font-medium duration-300">
+					<li class="text-gray-100 md:text-indigo-600 dark:md:text-indigo-400 font-medium duration-300 active:scale-[.85]">
 						<a @click="changeMenu(menu)">{{ menu.name }}</a>
 					</li>
 				</template>
-				<li class="md:hidden w-full bg-green-500 mt-5 text-gray-100 text-center py-2 px-4 rounded-lg">
+				<!-- Dark mode -->
+				<dark-mode-toggler></dark-mode-toggler>
+				<li class="md:hidden w-full bg-green-500 dark:md:bg-green-600 mt-5 text-gray-100 text-center py-2 px-4 rounded-lg">
 					<a href="https://wa.me/6285654036810">
 						<i class="fab fa-whatsapp"></i>
 						Chat Me
@@ -58,6 +60,7 @@
 
 	import { ref } from 'vue'
 	import menus from '@/menu.js'
+	import DarkModeToggler from '@/components/DarkModeToggler.vue'
 
 	const emits = defineEmits('changeMenu')
 

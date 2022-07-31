@@ -1,14 +1,14 @@
 <style scoped>
 
 	.input {
-		@apply text-sm text-gray-700  bg-gray-50 py-4 w-10/12;
+		@apply text-sm text-gray-700 dark:bg-indigo-700 bg-gray-50 py-4 w-10/12;
 	}
 
 </style>
 <template>
-	<section id="contact" class="py-8 bg-gradient-to-b from-gray-50 to-indigo-50 px-8 md:px-20">
-		<h1 data-aos="fade-up" class="mb-8 text-3xl text-center text-indigo-700 font-bold">Contact</h1>
-		<p data-aos="fade-up" class="md:text-center md:mx-auto">
+	<section id="contact" class="py-8 bg-gradient-to-b from-gray-50 to-indigo-50 px-8 md:px-20 dark:from-slate-900 dark:to-slate-900">
+		<h1 data-aos="fade-up" class="mb-8 text-3xl text-center text-indigo-700 font-bold dark:text-indigo-500">Contact</h1>
+		<p data-aos="fade-up" class="md:text-center md:mx-auto dark:text-gray-300">
 			contact me if there is a job you want to offer or just ask about me
 		</p>
 		<section class="w-full text-indigo-700 text-xl gap-5 mt-5">
@@ -46,7 +46,7 @@
 				</section>
 				
 				<section class="w-full md:w-5/12 flex flex-wrap">
-					<label data-aos="fade-up" class="text-base">Message</label>
+					<label data-aos="fade-up" class="text-base dark:text-indigo-400">Message</label>
 					<textarea data-aos="fade-up" rows="13" name="message" class="w-full text-base text-gray-600 mt-2 p-2 border-2 border-indigo-300 rounded-xl overflow-hidden bg-gray-50" placeholder="Your message"></textarea>
 					<div data-aos="fade-up" class="w-full mt-5 flex justify-between">
 						<button :class="isLoading ? 'bg-blue-200' : 'bg-blue-500'" class="text-gray-100 w-5/12 py-2 rounded-lg text-base" type="submit">

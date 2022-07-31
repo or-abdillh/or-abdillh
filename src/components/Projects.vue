@@ -1,10 +1,10 @@
 <template>
-	<section id="projects" class="py-8 bg-gradient-to-b from-indigo-50 to-gray-50 px-8 md:px-20">
-		<h1 data-aos="fade-up" class="mb-8 text-3xl font-bold text-center text-indigo-700">
+	<section id="projects" class="py-8 bg-gradient-to-b from-indigo-50 to-gray-50 px-8 md:px-20 dark:from-slate-900 dark:to-slate-900">
+		<h1 data-aos="fade-up" class="mb-8 text-3xl font-bold text-center text-indigo-700 dark:text-indigo-500">
 			Projects
 		</h1>
-		<p data-aos="fade-up" class="md:text-center md:mx-auto">
-			This is a special section that I made to share what works I have made so far, <span class="text-indigo-700">I hope you like it 🙌🏻</span>
+		<p data-aos="fade-up" class="md:text-center md:mx-auto dark:text-gray-300">
+			This is a special section that I made to share what works I have made so far, <span class="text-indigo-700 dark:text-indigo-500">I hope you like it 🙌🏻</span>
 		</p>
 		
 		<section class="mt-4 md:flex-nowrap mx-auto md:flex gap-5 flex-wrap">
@@ -22,7 +22,7 @@
 			</button>
 		</section>
 		<div data-aos="fade-up" class="mt-2 text-right">
-			<small class="text-sm">page {{ indicatorPage + 1  }} of {{ lengthPage }}</small>
+			<small class="text-sm dark:text-gray-300">page {{ indicatorPage + 1  }} of {{ lengthPage }}</small>
 		</div>
 	</section>
 </template>

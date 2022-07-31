@@ -18,13 +18,13 @@
 		<div class="py-2 items-center gap-1 flex justify-between md:flex-wrap">
 			<div class="w-6/12 md:w-full">
 				<div class="flex items-center gap-1 mb-1">
-					<p class="font-medium text-sm text-gray-900">{{ props.content.title }}</p>
+					<p class="font-medium text-sm text-gray-900 dark:text-gray-300">{{ props.content.title }}</p>
 				</div>
 			</div>
 			<div class="w-6/12 md:w-full text-right md:text-left">
-				<i class="fas fa-tag text-indigo-600 mr-1 text-xs"></i>
+				<i class="fas fa-tag text-indigo-600 dark:text-indigo-500 mr-1 text-xs"></i>
 				<small v-for="tag in props.content.tags" :key="tag">
-					<a :href="'https://www.google.com/search?q=' + tag" class="inline-block mr-1 text-indigo-700 text-xs">{{ tag }}</a>
+					<a :href="'https://www.google.com/search?q=' + tag" class="inline-block mr-1 text-indigo-700 text-xs dark:text-indigo-400">{{ tag }}</a>
 				</small>
 			</div>
 		</div>
