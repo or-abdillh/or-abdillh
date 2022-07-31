@@ -1,5 +1,5 @@
 <template>
-	<footer class="text-gray-100 px-10 pt-8 pb-4 bg-gradient-to-b from-indigo-600 dark:from-indigo-700 dark:to-blue-900 to-blue-800">
+	<footer class="text-gray-100 px-10 pt-8 pb-4 bg-gradient-to-b from-indigo-600 dark:from-slate-900 dark:to-indigo-900 to-blue-800">
 		<section class="w-full flex flex-col gap-10 md:flex-row md:justify-between lg:justify-center">
 			<section class="md:w-5/12">
 				<strong>Oka Rajeb Abdillah</strong>
