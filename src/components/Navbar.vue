@@ -2,7 +2,7 @@
 	<main class="navbar dark:from-slate-900 dark:to-slate-900">
 		<section class="navbar-brand">
 			<div class="flex items-center gap-3">
-				<img src="/icons/icon-512x512.png" width="50" />
+				<img src="/icons/icon-384x384.png" width="40" class="rounded-full" />
 				<h1 class="text-indigo-700 dark:text-indigo-400 text-xl font-semibold lg:text-3xl">OR ABDILLH</h1>
 			</div>
 			<button @click="showMenu = true" class="active:scale-90 duration-300 md:hidden" type="button">
@@ -28,7 +28,7 @@
 				</li>
 			</ul>
 			<section class="hidden md:block bg-green-500 text-gray-100 text-center p-2 md:px-4 rounded-lg">
-				<a href="">
+				<a href="https://wa.me/6285654036810">
 					<i class="fab fa-whatsapp"></i>
 					Chat me
 				</a>
