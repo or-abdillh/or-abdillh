@@ -1,6 +1,6 @@
 export default [
 	{
-		thumb: 'https://drive.google.com/uc?id=1ovmeGhCGZ4DYwd3WeFJhAlODCg0Ji5XD&export=download',
+		thumb: 'https://drive.google.com/uc?id=1ovmeGhCGZ4DYwd3WeFJhAlODCg0Ji5XD&export=downloa',
 		title: 'Bekantan Hamox',
 		tags: [
 			'web-design', 'vuejs', 'tailwind'
@@ -11,7 +11,7 @@ export default [
 		}
 	},
        {
-		thumb: 'https://dl.dropbox.com/s/o06twxsk6x8o39c/IMG_20220423_093850_189.jpg?dl=2',
+		thumb: 'https://drive.google.com/uc?id=18vBSipjfHlY0vbq8x4lvWHEB22JcohHv&export=download',
 		title: 'Echo Wallet',
 		tags: [
 			'web-design', 'vuejs', 'tailwind'
@@ -22,7 +22,7 @@ export default [
 		}
 	},
         {
-		thumb: 'https://dl.dropbox.com/s/5y1h24qqz42c4ve/20220309_100743_0000.png?dl=2',
+		thumb: 'https://drive.google.com/uc?id=1RAeaoXv36qO91iuKak-_7x-JXspTXUqj&export=download',
 		title: 'or-abdillh page',
 		tags: [
 			'landing-page', 'vuejs', 'tailwind'
@@ -33,7 +33,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/uxpplm5a0hw853b/20210828_133750_0000.png?dl=2',
+		thumb: 'https://drive.google.com/uc?id=1lO4FnkHEGxtg0CSzp7Kdj31BsFQbygAZ&export=download',
 		title: 'OMDB App',
 		tags: [
 			'vuejs', 'sass', 'omdb-api'
@@ -44,7 +44,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/mhb5dnovllq7h46/20211214_231432_0000.png?dl=2',
+		thumb: 'https://drive.google.com/uc?id=1mxYIGmtUmeGPhQ8BFNWlvUw4nwjBHq96&export=download',
 		title: 'Evoting Client',
 		tags: [
 			'vuejs', 'tailwind', 'rest-api', 'MEVN'
@@ -55,7 +55,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/ty9rcumc6l604ix/20211224_204249_0000.png?dl=2',
+		thumb: 'https://drive.google.com/uc?id=13etYpxilpUFBIf0WPsoigF9wSxrHtSaa&export=download',
 		title: 'Evoting Admin',
 		tags: [
 			'vuejs', 'tailwind', 'rest-api', 'template', 'admin', 'MEVN'
@@ -66,7 +66,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/rbr3xssm5mbpzr2/0001-19286847170_20210404_223303_0000.png?dl=2',
+		thumb: 'https://drive.google.com/uc?id=1N1M8l5DANMJLg5J66CWocDgRHdjbgaNN&export=download',
 		title: 'HIMA TI Profile',
 		tags: [
 			'bootstrap', 'template'
@@ -77,7 +77,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/2w32rlinna2kesn/1638685712-picsay.jpg?dl=2',
+		thumb: 'https://drive.google.com/uc?id=1r7Lnae6XHbgxXPWft6ck1YtyMOtv7czc&export=download',
 		title: 'Travel App',
 		tags: [
 			'slicing-design', 'vuejs', 'tailwind'
@@ -88,7 +88,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/hlqxr0r2a9kl49l/20210925_225050_0001.png?dl=2',
+		thumb: 'https://drive.google.com/uc?id=1yEYG1BA_Eke8bB899eYrbMF92B2trg68&export=download',
 		title: 'Cupcake App',
 		tags: [
 			'slicing-design', 'vuejs', 'tailwind'
@@ -99,7 +99,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/psf0m3kgb4nrfqn/20220112_234252_0000.png?dl=2',
+		thumb: 'https://drive.google.com/uc?id=1P36MEp9kMjJzAJNpQcnHzzWoUTdjMVLR&export=download',
 		title: 'Marketplace',
 		tags: [
 			'slicing-design', 'vuejs', 'tailwind'
@@ -110,7 +110,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/onrbhogg4pb14bt/20210725_201722_0000.png?dl=2',
+		thumb: 'https://drive.google.com/uc?id=1Ges4gXxQsoTkvyzMFgqgXMAFsw5uPRbP&export=download',
 		title: 'PETS App',
 		tags: [
 			'php', 'php-oop', 'open-api', 'sass'
@@ -121,7 +121,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/y41fd19hv3redyr/20210906_113102_0000.png?dl=2',
+		thumb: 'https://drive.google.com/uc?id=14TFQR-7jGM6OftD3At9NyaOECRGfMop5&export=download',
 		title: 'Travel App',
 		tags: [
 			'slicing-design', 'vuejs', 'tailwind'
@@ -132,7 +132,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/qcaxyesif51ah2w/20210919_004245_0000.png?dl=2',
+		thumb: 'https://drive.google.com/uc?id=1ozZaRlYw5ZkCRLwdWTZAPYfVmi3ghS6c&export=download',
 		title: 'House Finder',
 		tags: [
 			'slicing-design', 'vuejs', 'tailwind'
@@ -143,7 +143,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/qmm2i2qy5un24vf/banner-chat.png?dl=2',
+		thumb: 'https://drive.google.com/uc?id=1BtdLRbVI17yeFV87zpsuvbzlBOghuBkd&export=download',
 		title: 'Chat App',
 		tags: [
 			'slicing-design', 'vuejs', 'tailwind', 'pinia'
@@ -154,7 +154,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/14tcp44d1g6cjus/20210404_223747_0000.png?dl=2',
+		thumb: 'https://drive.google.com/uc?id=1djABczd2eEOh56FpCxrB-v-4kb4v3tMc&export=download',
 		title: 'Weather App',
 		tags: [
 			'jquery', 'ajax', 'bootstrap', 'open-api'
@@ -165,8 +165,8 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/oa74rggrinbb6w3/20220122_114836_0000.png?dl=2',
-		title: 'Todo App',
+		thumb: 'https://drive.google.com/uc?id=1rofxqSLnM-_DOOayXxoJajc7NOvgQ7FI&export=download',
+		title: 'Pro Mentor',
 		tags: [
 			'slicing-design', 'vuejs', 'tailwind'
 		],
@@ -176,7 +176,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/q7014cbwte53or2/banner%20%281%29.png?dl=2',
+		thumb: 'https://drive.google.com/uc?id=16sS5uQ2PcQ8-UKJb7i1wldUYWq24tf-b&export=download',
 		title: 'Vegetable App',
 		tags: [
 			'slicing-design', 'vuejs', 'tailwind'
@@ -187,7 +187,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/wg43no67rbjm0dj/banner-stock-app.png?dl=2',
+		thumb: 'https://drive.google.com/uc?id=1OQKuxHbyAzSa9OvvglXj6s3QYknaawJY&export=download',
 		title: 'Stock App',
 		tags: [
 			'vuejs', 'tailwind', 'rest-api', 'MEVN'
@@ -198,7 +198,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/kh03ji8xa6pj244/banner%20%282%29.png?dl=2',
+		thumb: 'https://drive.google.com/uc?id=1kSgzPcYM_UvtQEXtjMnIcZEVZnBA2ttK&export=download',
 		title: 'POS PHP',
 		tags: [
 			'php', 'bootstrap', 'mysql'
@@ -209,7 +209,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/t16dq10l5gsmvn7/banner%20%283%29.png?dl=2',
+		thumb: 'https://drive.google.com/uc?id=1VhuNABlnCZ9q8yQ_BHptaJq9Tgzwa0jn&export=download',
 		title: 'IT Gathering',
 		tags: [
 			'landing-page', 'vuejs', 'tailwind'
@@ -220,7 +220,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://dl.dropbox.com/s/tvhsrz8gxayoo43/banner.png?dl=2',
+		thumb: 'https://drive.google.com/uc?id=1vBpo0mxOHPyRgmVb_8QnMscFpf082YMt&export=download',
 		title: 'Doctalk',
 		tags: [
 			'slicing-design', 'vuejs', 'tailwind'
