@@ -1,5 +1,16 @@
 export default [
 	{
+		thumb: 'https://drive.google.com/uc?id=1DefKKXLjE0-T6R_hjERWZzlN_tPK5XKV&export=download',
+		title: 'Car App',
+		tags: [
+			'slicing-design', 'nuxtjs', 'tailwind'
+		],
+		links: {
+			github: 'https://github.com/or-abdillh/car-information-app',
+			instagram: 'https://www.instagram.com/reel/CldlZGgMz5A/?utm_source=ig_web_copy_link'
+		}
+	},
+	{
 		thumb: 'https://drive.google.com/uc?id=1yCCrZ6trLXk_XND7FKixrBIBE8wwh4jZ&export=download',
 		title: 'PatunganCuan',
 		tags: [
