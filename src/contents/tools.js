@@ -6,7 +6,7 @@ export default [
 	'tools/express.png', 'tools/mysql.png', 
 	'tools/postgresql.png', 'tools/sequelize.png', 'tools/git.png', 
 	'tools/github.png', 'tools/vercel.png', 
-	'tools/heroku.png', 'tools/npm.png',
+	'tools/heroku.png', 'tools/railway.png', 'tools/npm.png',
 	'tools/vscode.png', 'tools/termux.png', 
 	'tools/neovim.png', 'tools/micro.png'
 ]
