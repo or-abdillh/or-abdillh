@@ -1,6 +1,6 @@
 export default [
 	{
-		thumb: 'https://drive.google.com/uc?id=1ovmeGhCGZ4DYwd3WeFJhAlODCg0Ji5XD&export=downloa',
+		thumb: 'https://drive.google.com/uc?id=1ovmeGhCGZ4DYwd3WeFJhAlODCg0Ji5XD&export=download',
 		title: 'Bekantan Hamox',
 		tags: [
 			'web-design', 'vuejs', 'tailwind'
