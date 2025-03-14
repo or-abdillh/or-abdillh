@@ -27,6 +27,7 @@ I'm a web developer with expertise in building web-based applications using mode
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oka-rajeb-abdillah/)  
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/or-abdillh)  
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hans.abdillh05@gmail.com)
+[![Strava](https://img.shields.io/badge/-Strava-FC4C02?style=for-the-badge&logo=gmail&logoColor=white)](https://www.strava.com/athletes/43554627)
 
 ## 📊 GitHub Stats
 
