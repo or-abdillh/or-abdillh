@@ -14,7 +14,7 @@ I'm a web developer with expertise in building web-based applications using mode
 
 ## 📌 Tech Stack
 
-🔹 Vue.js | Nuxt.js | TypeScript | Laravel | Express.js | Tailwind CSS | PostgreSQL | MySQL | MongoDB | Docker | Nginx
+🔹 Vue.js | Nuxt.js | TypeScript | Laravel | Inertia.js | Express.js | Nest.js | Tailwind CSS | PostgreSQL | MySQL | Railway | Vercel
 
 ## 🌱 Currently Exploring
 
